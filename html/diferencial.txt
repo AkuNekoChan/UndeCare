@@ -1,0 +1,38 @@
+<div class="div diferenciais">
+        <h1>Nosso serviço oferece:</h1>
+        <div class="cards">
+          <div>
+            <img src="../img/icons/prancheta.png" class="icone" alt="prancheta" />
+            <h3>REGISTRO DOS CUIDADORES</h3>
+          </div>
+          <p>A família não tem preocupação com questões trabalhistas.</p>
+
+        </div>
+        <div class="cards">
+          <div><img src="../img/icons/ok.png" class="icone" alt="ok" />
+            <h3>CUIDADORES QUALIFICADOS</h3>
+          </div>
+          <p>
+            Temos profissionais com curso e estágio em casas de repouso.
+          </p>
+        </div>
+        <div class="cards">
+          <div>
+            <img src="../img/icons/supervisao.png" class="icone" alt="supervisão" />
+            <h3>SUPERVISÃO DOSCUIDADORES</h3>
+          </div>
+          <p>
+            Profissionais monitorados pelo RH, coordenador e sistema de Under
+            Care.
+          </p>
+        </div>
+        <div class="cards">
+          <div>
+            <img src="../img/icons/maos.png" class="icone" alt="mãos" />
+            <h3>PERFIL DO CUIDADOR</h3>
+          </div>
+          <p>
+            A família escolhe o cuidador de acordo com o perfil do seu dependente.
+          </p>
+        </div>
+      </div>

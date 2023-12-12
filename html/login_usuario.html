@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo-main.css">
+    <link rel="stylesheet" href="../css/inserir.css">
+    <title>Login - Sistema de Cuidadores</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form action="../php/login_usuario.php" method="POST">
+            <label for="cpf">CPF:</label>
+            <input type="text" name="cpf" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" required>
+
+            <button type="submit">Entrar</button>
+            <div>
+            <p>Não tem uma conta? <a href="../html/inserir_usuario.html">Cadastre-se</a></p></div>
+        </form>
+    </div>
+</body>
+
+</html>

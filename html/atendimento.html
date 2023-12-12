@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Atendimento para Cuidadores</title>
+    <link rel="stylesheet" href="../css/estilo-main.css">
+    <link rel="stylesheet" href="../css/inserir.css">
+</head>
+
+<body>
+
+    <!--add header aq pls-->
+
+
+    <div class="container">
+        <h1>Tela de Atendimento para Cuidadores</h1>
+
+        <form action="../php/atendimento.php" method="post">
+            <label for="status">Status:</label>
+            <select id="status" name="status">
+                <option value="agendado">Agendado</option>
+                <option value="em_andamento">Em Andamento</option>
+                <option value="concluido">Concluído</option>
+            </select>
+
+            <label for="cuidador">Cuidador:</label>
+            <!-- adicionar uma lista de cuidadores disponíveis -->
+            <input type="text" name="cuidador" required><br>
+
+            <label for="idoso">Idoso:</label>
+            <!-- adicionar uma lista de idosos disponíveis -->
+            <input type="text" name="idoso" required><br>
+
+            <button type="submit">Salvar Atendimento</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

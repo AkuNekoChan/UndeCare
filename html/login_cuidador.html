@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/estilo-main.css">
+    <link rel="stylesheet" href="../css/inserir.css">
+</head>
+
+<body>
+    <div class="container">
+        <form method="post" action="../php/login_cuidador.php">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            <span class="error">
+                <?php echo $emailErr; ?>
+            </span>
+
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" required>
+            <span class="error">
+                <?php echo $passwordErr; ?>
+            </span>
+
+            <button type="submit">Fazer Login</button>
+
+            <span class="error">
+                <?php echo $loginError; ?>
+            </span>
+
+            <p>Não tem uma conta? <a href="../html/inserir_cuidador.html">Cadastre-se</a></p>
+        </form>
+    </div>
+</body>
+
+</html>

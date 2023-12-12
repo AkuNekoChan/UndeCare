@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Ficha de Idoso</title>
+    <link rel="stylesheet" href="../css/estilo-main.css">
+    <link rel="stylesheet" href="../css/inserir.css">
+</head>
+
+<body>
+   
+    <div class="container"> <div><a href="voltar" >Voltar</a></div>
+
+        <h2>Cadastro de Ficha do dependente</h2>
+        <form method="POST" action="../php/inserir_idoso.php">
+            <label for="nome_idoso">Nome:</label>
+            <input type="text" name="nome_idoso" required>
+
+            <label for="cpf_idoso">CPF do dependente:</label>
+            <input type="text" name="cpf_idoso" required>
+
+            <label for="data_nascimento">Data de Nascimento:</label>
+            <input type="date" name="data_nascimento" required>
+
+            <label for="quadro_medico">Quadro Médico:</label>
+            <textarea name="quadro_medico" rows="4" required></textarea>
+
+            <label for="cpf_usuario">CPF do Usuário:</label>
+            <input type="text" name="cpf_usuario" required>
+
+            <button type="submit">Finalizar</button>
+        </form>
+
+    </div>
+</body>
+
+</html>
