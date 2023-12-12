@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  /* align-items: center;*/
+
+  justify-content: center;
+  background: url("../img/bg/bg.png");
+
+  a {
+    color: #467254;
+    text-decoration: none;
+  }
+}
+card-container:hover {
+  background-color: #59ad99;
+}
+.header {
+  color: #fff;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #467254;
+
+  div {
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  h2 {
+    text-align: center;
+  }
+  img {
+    width: 100px;
+    border-radius: 4px;
+  }
+  a {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.cuidadores-container {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: #fff;
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+
+  img {
+    width: 100px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+}
+.cuidadores-container h2 {
+  text-align: center;
+  color: #041e17;
+}
+h3 {
+  margin: 0;
+  color: #041e17;
+}
+p {
+  color: #666;
+}
+.card:hover {
+  box-shadow: #467254 inset 0 0 0 5px;
+}

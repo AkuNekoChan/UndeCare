@@ -1,0 +1,285 @@
+/*pagina inicial css*/
+
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #e1fff5;
+    font: 20px 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    background: url(../img/bg/bg.png) repeat fixed;
+    box-shadow: inset #141d1a79 0 0 100px;
+    color: #141d1a;
+}
+
+/*tamanho no geral*/
+.div {
+    max-width: 800px;
+    margin: 42px auto;
+    padding: 15px;
+    border-radius: 5px;
+    padding: 0 10vw;
+}
+
+.div {
+
+    margin: auto;
+    flex-wrap: wrap;
+    padding: 42px auto;
+
+}
+
+header {
+    margin: 0;
+    padding: 5px 0;
+    background-color: #141d1a;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-img,
+header img {
+    height: 50px;
+}
+
+/*formatação de texto*/
+h1,
+h2,
+h3,
+p {
+    padding: 5px;
+
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+p {
+    text-indent: 15px;
+    text-align: left;
+}
+
+.links {
+    padding: 2px;
+    display: flex;
+    margin-right: 50px;
+}
+
+a {
+
+    color: #98ffb9;
+    text-decoration: none;
+    padding: 5px 2px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.sobre2 a:hover {
+    text-decoration: underline;
+    background-color: #141d1a;
+}
+
+.fundo1 {
+    background: url(../img/bg/Cuidadores_.png)no-repeat center fixed;
+    background-size: cover;
+}
+
+.fundo3 {
+    background: url(../img/bg/cuidadores-de-idosos3.png)no-repeat center fixed;
+    background-size: cover;
+    background-color: #e1fff5b1;
+}
+
+.sobre {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre2 {
+    font-size: larger;
+    border-radius: 5px;
+    padding: 50px;
+    margin: 100px 60px;
+    background-color: #a2c7bb;
+}
+
+/*bpx shadow*/
+
+
+.sobre a {
+    background-color: #467254;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+.fundo2 {
+    background: url(../img/bg/Cuidador2.png)no-repeat center fixed;
+    background-size: cover;
+}
+
+.under-care {
+    margin: auto;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.care,
+.under-care,
+.cuidadores div,
+.sobre,
+.funcoes,
+.contatos-rodape {
+    flex-wrap: wrap;
+}
+
+
+.care {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+iframe {
+    margin: 50px auto;
+    width: auto;
+    border-radius: 20px;
+}
+
+.cuidadores {
+    height: 800px;
+    width: 300px;
+    display: flex;
+
+    div {
+        display: flex;
+    }
+
+    img {
+        width: 300px;
+        margin: auto;
+    }
+
+    a {
+        margin: auto;
+    }
+
+}
+
+
+.cards{
+    padding: 15px;
+    background-color: #8fb59b8c;
+    border: #98ffb9 solid 2px;
+    box-shadow: #98ffb9 5px 5px 0;
+    border-radius: 20px;
+    display: flex;
+    width: 400px;
+
+    p {
+        margin: auto;
+        width: 80%;
+    }
+}
+
+
+.icone {
+    padding: 10px;
+    width: 60px;
+    margin: auto;
+}
+
+
+.grid {
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+    flex-wrap: wrap;
+    .cards{
+        width: 300px;
+    }
+}
+
+
+.funcoes p {
+
+    color: #000000;
+    font-size: smaller;
+}
+
+.logar {
+    display: flex;
+    margin: 42px auto;
+
+    a {
+        margin: auto;
+        padding: 40px;
+        background-color: #141d1a;
+        text-decoration: none;
+    }
+}
+
+.logar a:hover {
+    margin: auto;
+    padding: 40px 80px;
+    background-color: #467254;
+}
+
+footer {
+    background-color: #467254;
+    margin: auto;
+    padding: 50px 0;
+
+    .logo-img {
+        display: flex;
+        margin: auto;
+    }
+}
+
+.contatos-rodape {
+
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+    div {
+        display: flex;
+
+    }
+
+}
+
+
+/*
+
+ta tansbordando ;-;
+
+normalizar isso '-'
+
+pfv n mexe nesse site e css pls
+
+
+*/
